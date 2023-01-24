@@ -1,0 +1,47 @@
+body{
+/*	text-align: center;*/
+/*	background-image: url('newsletter3.jpg');*/
+/*	background-size: 1265px, 300px;*/
+   background: url(newsletter3.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1{
+/*	text-align: center;*/
+	color: rgb(251, 79, 99);
+	cursor: pointer;
+	font-size: 50px;
+	font-family: 'Source-Serif-Pro';
+	line-height: 300px;
+}
+
+/*.btn-danger{
+	background-color: deeppink;
+}*/
+.btn{
+	font-weight: 700;
+	border-radius: 300px;
+}
+.btn-primary{
+	background-color: hotpink;
+	border-color: hotpink;
+}
+.btn-primary:hover{
+	background-color: deeppink;
+	border-color: deeppink;
+	border-width: 3px;
+}
+
+.btn-xl{
+	padding: 10px 20px;
+}
+hr{
+	border-color: deeppink;
+	border-width:4px;
+	max-width: 65px;
+}
+/*.buffer{
+	height: 12px;
+}*/
